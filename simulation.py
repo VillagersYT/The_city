@@ -29,7 +29,7 @@ class Pioche:
 pioche = Pioche()
 
 
-class Player:
+class Player: #il faut raouter un check pour savoir si on peux le construire et si il y a des reduc 
     def __init__(self, name):
         self.deck = []        # Liste de cartes possédées
         self.city = {}        # Ville construite (pas encore utilisée)
